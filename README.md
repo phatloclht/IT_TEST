@@ -1,8 +1,8 @@
 # IT_TEST
 
 ## Prerequisites
-- Visual Studio Code (VS Code) installed
-- Node.js installed (if you are running a JavaScript file that requires Node.js)
+- Visual Studio Code (VS Code) installed.
+- Node.js installed (if you are running a JavaScript file that requires Node.js).
 
 ## Problem 1 -> 4
 
@@ -15,8 +15,8 @@ For example: node your-script.js
 
 ## Problem 5 -> 6
 
-### 1. Open the HTML file:
-### 2. Install the Live Server extension for VS Code:
+### 1. Open the HTML file.
+### 2. Install the Live Server extension for VS Code.
 ### 3. Click on the "Go Live" button.
 
 
