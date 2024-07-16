@@ -1,5 +1,4 @@
 function rotateSparseArray(arr, steps) {
-  // Find the non-default values and their indices
   const nonDefaultValues = [];
   const indices = [];
 
@@ -20,7 +19,7 @@ function rotateSparseArray(arr, steps) {
   // Create a copy of the original array to hold the result
   const result = arr.slice();
 
-  // Insert the rotated values back into their positions
+  // Insert the rotated values
   indices.forEach((index, i) => {
     result[index] = rotatedValues[i];
   });

@@ -10,7 +10,7 @@ function groupAnagrams(strs) {
       groups[sortedStr] = [];
     }
 
-    // Add the original string to the group
+    // Add string to the group
     groups[sortedStr].push(str);
   }
 

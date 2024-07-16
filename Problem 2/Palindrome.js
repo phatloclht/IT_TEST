@@ -1,8 +1,8 @@
 const isPalindrome = function (s) {
-  // Normalize the string: remove non-alphanumeric characters and convert to lowercase
+  // Remove non-alphanumeric characters and convert to lowercase
   const normalizedStr = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
 
-  // Reverse the normalized string
+  // Reverse the string
   const reversedStr = normalizedStr.split('').reverse().join('');
 
   // Check if the normalized string is equal to its reverse

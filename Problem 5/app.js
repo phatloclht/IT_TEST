@@ -3,7 +3,7 @@ document
   .addEventListener('submit', function (event) {
     event.preventDefault();
 
-    // Get form values
+    //  Form values
     const name = document.getElementById('name').value;
     const age = document.getElementById('age').value;
     const color = document.getElementById('color').value;
