@@ -1,5 +1,5 @@
 // Define OpenWeatherMap API key
-const apiKey = '5bb9b824f72faf71e6d401dcd20afff8';
+const apiKey = ''; // Use your own OpenWeatherMap API key
 const lat = 10.8333;
 const lon = 106.6667;
 
@@ -29,7 +29,7 @@ async function fetchWeather() {
     console.log(`Country: ${country}`);
     console.log(`City: ${city}`);
   } catch (error) {
-    console.error('There has been a problem with your fetch operation:', error);
+    console.error('Error:', error);
   }
 }
 
